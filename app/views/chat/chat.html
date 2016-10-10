@@ -1,0 +1,15 @@
+<div class="container-fluid">
+    <h2>Chat Interceptor</h2>
+    <p>Text analysis happens as you type in the textbox below. The app is smart enough to process your text when you make a pause.</p>
+    <div class="row">
+        <div class="col-sm-4">
+            <textarea class="form-control" rows="10" id="comment" placeholder="Enter your comment" ng-model="text"></textarea>
+        </div>
+        <div class="col-sm-4">
+            <div ng-include="'/views/config/config.html'"></div>
+        </div>
+        <div class="col-sm-4">
+            <div ng-include="'/views/analysis/analysis.html'"></div>
+        </div>
+    </div>
+</div>
